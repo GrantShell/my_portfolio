@@ -3,7 +3,7 @@
   --dark: #58001d;
   --mid: #980b15;
   --light: #f10011;
-  --accent: #7869ee;
+  --accent: #a29bd3;
   --page-margin: 0 2rem;
   --border: 2px solid var(--accent);
 }
@@ -33,6 +33,7 @@ header {
 header > nav > ul {
   list-style-type: none;
   display: inline-flex;
+  color: azure;
 }
 
 header > nav > ul > li::after {
@@ -45,6 +46,9 @@ header > nav > ul > li::after {
 header > nav > ul > li:last-child::after {
   content: unset;
   margin-left: unset;
+}
+a {
+  color: azure;
 }
 
 main {
@@ -66,18 +70,35 @@ h3 {
 a:hover {
   color: var(--accent);
   text-decoration: none;
+  border: var(--border);
+  border-radius: 1rem;
 }
 
-#hero {
+.project-card figure {
+  position: relative;
 }
 
-#about-me {
+.project-card {
+  margin: 1.5rem;
+  padding: 0;
+  border: var(--border);
+  border-radius: 1rem;
 }
 
-#projects {
+.project-card h3 {
+  position: relative;
+  top: 0rem;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  background-color: var(--dark);
+  color: var(--accent);
+  border-top: 1rem;
+  border-bottom: 1rem;
 }
 
-#contact-me {
+.project-card image {
 }
 
 footer {
