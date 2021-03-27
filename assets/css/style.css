@@ -1,0 +1,51 @@
+:root {
+  --head: aqua;
+  --dark: #58001d;
+  --mid: #980b15;
+  --light: #f10011;
+  --accent: #7869ee;
+  --page-margin: 0 2rem;
+  --border: 2px solid var(--accent);
+}
+
+html {
+  background-color: var(--dark);
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+  color: rgb(243, 241, 241);
+}
+
+header {
+  background-color: var(--dark);
+}
+
+main {
+  background-color: var(--mid);
+}
+
+#hero {
+}
+
+#about-me {
+}
+
+#projects {
+}
+
+#contact-me {
+}
+
+footer {
+  background-color: aqua;
+}
+
+@media screen and (min-width: 320px) {
+  #hero {
+    background-color: blue;
+  }
+}
