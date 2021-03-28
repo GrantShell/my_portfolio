@@ -48,40 +48,24 @@ header > nav > ul > li:last-child::after {
   margin-left: unset;
 }
 
-#welcome{
+#welcome {
   color: #4447e7;
   display: flex;
   justify-content: center;
 }
 
-#Grant{
+#about-me img {
   width: 100%;
   max-width: 400px;
   height: 100%;
-  display: flex;
-  justify-content: center;
-}
-{
-background: linear-gradient(
-  180deg,
-  var(--dark) 0%,
-  var(--light) 100%);
+  display: block;
+  margin: auto;
 }
 
 #contact-me,
 #about-me,
 #projects {
-background: linear-gradient(
-  180deg,
-  var(--dark) 0%,
-  var(--light) 100%);
-}
-
-{
-  background: linear-gradient(
-  180deg,
-  var(--dark) 0%,
-  var(--light) 100%);
+  background: linear-gradient(25deg, var(--dark) 0%, var(--light) 100%);
 }
 
 a {
@@ -128,21 +112,39 @@ a:hover {
   left: 0;
   width: 100%;
   margin: 0;
-  padding: 1rem;
+  padding: 0.75rem;
   background-color: var(--dark);
   color: var(--accent);
-  border-top: 1rem;
-  border-bottom: 1rem;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 
 .project-card image {
+  position: relative;
 }
 
 footer {
-  background-color: aqua;
+  background-color: rgb(203, 216, 216);
+  color: black;
 }
 
 @media screen and (min-width: 320px) {
-  
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 24px;
   }
 }
