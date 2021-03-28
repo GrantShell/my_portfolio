@@ -107,6 +107,7 @@ a:hover {
 }
 
 .project-card h3 {
+  display: flex;
   position: relative;
   top: 0rem;
   left: 0;
@@ -135,16 +136,33 @@ footer {
   html {
     font-size: 18px;
   }
+  #projects2 {
+    width: 50%;
+  }
+  #project1 {
+    width: 75%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   html {
     font-size: 20px;
   }
+  #projects2 {
+    width: 60%;
+  }
+  #project1 {
+    width: 80%;
 }
 
 @media screen and (min-width: 1440px) {
   html {
     font-size: 24px;
+  }
+  #projects2 {
+    width: 75%;
+  }
+  #project1 {
+    width: 95%;
   }
 }
